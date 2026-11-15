@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="820" viewBox="0 0 1280 820" font-family="Helvetica, Arial, sans-serif">
+<rect width="1280" height="820" fill="#fafafa"/>
+<text x="24" y="38" font-size="22" font-weight="bold" fill="#1f1f1f">Add or edit an application</text>
+<text x="24" y="58" font-size="13" fill="#666666">Opens at the top of /applications   |   Login required (story 2).</text>
+<rect x="24" y="70" width="860" height="726" fill="#ffffff" stroke="#6b6b6b" stroke-width="2"/>
+<rect x="24" y="70" width="860" height="52" rx="0" fill="#f2f2f2" stroke="#8a8a8a" stroke-width="1.5"/>
+<rect x="42" y="83" width="26" height="26" rx="6" fill="#bdbdbd" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="78" y="102" font-size="18" font-weight="bold" fill="#333333" text-anchor="start">Applied</text>
+<rect x="194" y="81" width="130" height="30" rx="6" fill="#dcdcdc" stroke="#dcdcdc" stroke-width="1.5"/>
+<text x="259.0" y="101" font-size="13" font-weight="bold" fill="#333" text-anchor="middle">My Applications</text>
+<text x="399.0" y="101" font-size="13" font-weight="bold" fill="#666" text-anchor="middle">Question Bank</text>
+<text x="754" y="101" font-size="13" font-weight="normal" fill="#666" text-anchor="end">Hi, Kavya</text>
+<rect x="772" y="80" width="94" height="32" rx="6" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="819.0" y="101.0" font-size="12" font-weight="bold" fill="#333333" text-anchor="middle">Log out</text>
+<text x="54" y="170" font-size="26" font-weight="bold" fill="#333333" text-anchor="start">My Applications</text>
+<text x="54" y="194" font-size="13" font-weight="normal" fill="#777" text-anchor="start">40 applications shown</text>
+<rect x="54" y="220" width="800" height="384" rx="8" fill="#ffffff" stroke="#4a4a4a" stroke-width="2"/>
+<text x="78" y="260" font-size="20" font-weight="bold" fill="#333333" text-anchor="start">Add an application</text>
+<circle cx="294" cy="254" r="12" fill="#1f1f1f"/>
+<text x="294" y="259" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+<text x="78" y="296" font-size="12" font-weight="bold" fill="#333333" text-anchor="start">Company</text>
+<rect x="78" y="304" width="364.0" height="34" rx="4" fill="#ffffff" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="88" y="326.0" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">HubSpot</text>
+<text x="466.0" y="296" font-size="12" font-weight="bold" fill="#333333" text-anchor="start">Role</text>
+<rect x="466.0" y="304" width="364.0" height="34" rx="4" fill="#ffffff" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="476.0" y="326.0" font-size="12" font-weight="normal" fill="#9a9a9a" text-anchor="start">e.g. Software Engineer Co-op</text>
+<circle cx="822.0" cy="290" r="12" fill="#1f1f1f"/>
+<text x="822.0" y="295" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+<text x="78" y="360" font-size="12" font-weight="bold" fill="#333333" text-anchor="start">Date applied</text>
+<rect x="78" y="368" width="364.0" height="34" rx="4" fill="#ffffff" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="88" y="390.0" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">11/15/2026</text>
+<rect x="412.0" y="376" width="16" height="16" rx="2" fill="none" stroke="#666"/>
+<circle cx="434.0" cy="354" r="12" fill="#1f1f1f"/>
+<text x="434.0" y="359" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+<text x="466.0" y="360" font-size="12" font-weight="bold" fill="#333333" text-anchor="start">Status</text>
+<rect x="466.0" y="368" width="364.0" height="34" rx="4" fill="#ffffff" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="476.0" y="390.0" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">Applied</text>
+<path d="M808.0 382.0 l6 6 l6 -6" fill="none" stroke="#555" stroke-width="1.5"/>
+<circle cx="822.0" cy="354" r="12" fill="#1f1f1f"/>
+<text x="822.0" y="359" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+<text x="78" y="424" font-size="12" font-weight="bold" fill="#333333" text-anchor="start">Notes</text>
+<rect x="78" y="432" width="752.0" height="56" rx="4" fill="#ffffff" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="88" y="452" font-size="12" font-weight="normal" fill="#9a9a9a" text-anchor="start">Recruiter name, next steps, interview dates…</text>
+<rect x="78" y="500" width="752.0" height="34" rx="4" fill="#f2f2f2" stroke="#9a9a9a" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="90" y="522" font-size="12" font-weight="normal" fill="#666" text-anchor="start">Role is required.</text>
+<circle cx="822.0" cy="504" r="12" fill="#1f1f1f"/>
+<text x="822.0" y="509" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="78" y="548" width="150" height="34" rx="6" fill="#4a4a4a" stroke="#4a4a4a" stroke-width="1.5"/>
+<text x="153.0" y="570.0" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Add application</text>
+<rect x="240" y="548" width="90" height="34" rx="6" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="285.0" y="570.0" font-size="13" font-weight="bold" fill="#333333" text-anchor="middle">Cancel</text>
+<circle cx="340" cy="554" r="12" fill="#1f1f1f"/>
+<text x="340" y="559" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">6</text>
+<rect x="54" y="624" width="800" height="56" rx="6" fill="#f7f7f7" stroke="#c8c8c8" stroke-width="1.5"/>
+<text x="70" y="657" font-size="12" font-weight="normal" fill="#aaa" text-anchor="start">Filter bar</text>
+<rect x="54" y="694" width="190" height="86" rx="6" fill="#f5f5f5" stroke="#cfcfcf" stroke-width="1.5"/>
+<rect x="66" y="712" width="90" height="9" rx="4.5" fill="#dedede"/>
+<rect x="257" y="694" width="190" height="86" rx="6" fill="#f5f5f5" stroke="#cfcfcf" stroke-width="1.5"/>
+<rect x="269" y="712" width="90" height="9" rx="4.5" fill="#dedede"/>
+<rect x="460" y="694" width="190" height="86" rx="6" fill="#f5f5f5" stroke="#cfcfcf" stroke-width="1.5"/>
+<rect x="472" y="712" width="90" height="9" rx="4.5" fill="#dedede"/>
+<rect x="663" y="694" width="190" height="86" rx="6" fill="#f5f5f5" stroke="#cfcfcf" stroke-width="1.5"/>
+<rect x="675" y="712" width="90" height="9" rx="4.5" fill="#dedede"/>
+<text x="454.0" y="756" font-size="13" font-weight="normal" fill="#9a9a9a" text-anchor="middle">Status board (unchanged, see previous wireframe)</text>
+<text x="910" y="84" font-size="15" font-weight="bold" fill="#1f1f1f">Annotations</text>
+<circle cx="922" cy="105" r="12" fill="#1f1f1f"/>
+<text x="922" y="110" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+<text x="944" y="110" font-size="14" font-weight="bold" fill="#1f1f1f">Same form for add and edit</text>
+<text x="944" y="130" font-size="12.5" fill="#444444">When editing, the title becomes Edit</text>
+<text x="944" y="147" font-size="12.5" fill="#444444">application, the fields are filled in, and</text>
+<text x="944" y="164" font-size="12.5" fill="#444444">the button says Save changes.</text>
+<circle cx="922" cy="192" r="12" fill="#1f1f1f"/>
+<text x="922" y="197" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+<text x="944" y="197" font-size="14" font-weight="bold" fill="#1f1f1f">Required fields</text>
+<text x="944" y="217" font-size="12.5" fill="#444444">Company, role and date applied are required,</text>
+<text x="944" y="234" font-size="12.5" fill="#444444">with limits on length. The browser and the</text>
+<text x="944" y="251" font-size="12.5" fill="#444444">server both check them.</text>
+<circle cx="922" cy="279" r="12" fill="#1f1f1f"/>
+<text x="922" y="284" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+<text x="944" y="284" font-size="14" font-weight="bold" fill="#1f1f1f">Date picker</text>
+<text x="944" y="304" font-size="12.5" fill="#444444">A native date input, which works with the</text>
+<text x="944" y="321" font-size="12.5" fill="#444444">keyboard and screen readers. It defaults to</text>
+<text x="944" y="338" font-size="12.5" fill="#444444">today.</text>
+<circle cx="922" cy="366" r="12" fill="#1f1f1f"/>
+<text x="922" y="371" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+<text x="944" y="371" font-size="14" font-weight="bold" fill="#1f1f1f">Status</text>
+<text x="944" y="391" font-size="12.5" fill="#444444">A dropdown with the four statuses. New</text>
+<text x="944" y="408" font-size="12.5" fill="#444444">applications start as Applied.</text>
+<circle cx="922" cy="436" r="12" fill="#1f1f1f"/>
+<text x="922" y="441" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+<text x="944" y="441" font-size="14" font-weight="bold" fill="#1f1f1f">Error message</text>
+<text x="944" y="461" font-size="12.5" fill="#444444">If the server rejects the data, the reason</text>
+<text x="944" y="478" font-size="12.5" fill="#444444">is shown here and the form stays open.</text>
+<circle cx="922" cy="506" r="12" fill="#1f1f1f"/>
+<text x="922" y="511" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">6</text>
+<text x="944" y="511" font-size="14" font-weight="bold" fill="#1f1f1f">Cancel</text>
+<text x="944" y="531" font-size="12.5" fill="#444444">Closes the form without saving.</text>
+</svg>
