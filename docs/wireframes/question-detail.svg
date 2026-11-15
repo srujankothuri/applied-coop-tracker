@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="820" viewBox="0 0 1280 820" font-family="Helvetica, Arial, sans-serif">
+<rect width="1280" height="820" fill="#fafafa"/>
+<text x="24" y="38" font-size="22" font-weight="bold" fill="#1f1f1f">Question detail</text>
+<text x="24" y="58" font-size="13" fill="#666666">Route: /questions/:id   |   Public; edit and delete for the author only (stories 6, 7).</text>
+<rect x="24" y="70" width="860" height="726" fill="#ffffff" stroke="#6b6b6b" stroke-width="2"/>
+<rect x="24" y="70" width="860" height="52" rx="0" fill="#f2f2f2" stroke="#8a8a8a" stroke-width="1.5"/>
+<rect x="42" y="83" width="26" height="26" rx="6" fill="#bdbdbd" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="78" y="102" font-size="18" font-weight="bold" fill="#333333" text-anchor="start">Applied</text>
+<text x="259.0" y="101" font-size="13" font-weight="bold" fill="#666" text-anchor="middle">My Applications</text>
+<rect x="334" y="81" width="130" height="30" rx="6" fill="#dcdcdc" stroke="#dcdcdc" stroke-width="1.5"/>
+<text x="399.0" y="101" font-size="13" font-weight="bold" fill="#333" text-anchor="middle">Question Bank</text>
+<text x="754" y="101" font-size="13" font-weight="normal" fill="#666" text-anchor="end">Hi, Arun</text>
+<rect x="772" y="80" width="94" height="32" rx="6" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="819.0" y="101.0" font-size="12" font-weight="bold" fill="#333333" text-anchor="middle">Log out</text>
+<text x="64" y="162" font-size="13" font-weight="bold" fill="#333333" text-anchor="start">Back to results</text>
+<line x1="64" y1="165" x2="162" y2="165" stroke="#333" stroke-width="1"/>
+<circle cx="190" cy="157" r="12" fill="#1f1f1f"/>
+<text x="190" y="162" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+<rect x="64" y="186" width="780" height="520" rx="8" fill="#ffffff" stroke="#8a8a8a" stroke-width="1.5"/>
+<rect x="92" y="214" width="110" height="22" rx="11" fill="#efefef" stroke="#cfcfcf" stroke-width="1.5"/>
+<text x="104" y="230" font-size="12" font-weight="normal" fill="#444" text-anchor="start">Linked Lists</text>
+<rect x="212" y="214" width="76" height="22" rx="11" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="224" y="230" font-size="12" font-weight="bold" fill="#333333" text-anchor="start">Medium</text>
+<circle cx="304" cy="224" r="12" fill="#1f1f1f"/>
+<text x="304" y="229" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+<text x="92" y="278" font-size="24" font-weight="bold" fill="#333333" text-anchor="start">Design an LRU cache with O(1) get and put.</text>
+<circle cx="824" cy="268" r="12" fill="#1f1f1f"/>
+<text x="824" y="273" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+<rect x="92.0" y="306" width="172.0" height="64" rx="6" fill="#f7f7f7" stroke="#dcdcdc" stroke-width="1.5"/>
+<text x="104.0" y="330" font-size="11.5" font-weight="bold" fill="#777" text-anchor="start">Company</text>
+<text x="104.0" y="352" font-size="12.5" font-weight="normal" fill="#333333" text-anchor="start">Wayfair</text>
+<rect x="276.0" y="306" width="172.0" height="64" rx="6" fill="#f7f7f7" stroke="#dcdcdc" stroke-width="1.5"/>
+<text x="288.0" y="330" font-size="11.5" font-weight="bold" fill="#777" text-anchor="start">Role</text>
+<text x="288.0" y="352" font-size="12.5" font-weight="normal" fill="#333333" text-anchor="start">Software Engineer Co-op</text>
+<rect x="460.0" y="306" width="172.0" height="64" rx="6" fill="#f7f7f7" stroke="#dcdcdc" stroke-width="1.5"/>
+<text x="472.0" y="330" font-size="11.5" font-weight="bold" fill="#777" text-anchor="start">Interview round</text>
+<text x="472.0" y="352" font-size="12.5" font-weight="normal" fill="#333333" text-anchor="start">Technical Interview</text>
+<rect x="644.0" y="306" width="172.0" height="64" rx="6" fill="#f7f7f7" stroke="#dcdcdc" stroke-width="1.5"/>
+<text x="656.0" y="330" font-size="11.5" font-weight="bold" fill="#777" text-anchor="start">Shared by</text>
+<text x="656.0" y="352" font-size="12.5" font-weight="normal" fill="#333333" text-anchor="start">Arun Prakash, Oct 3, 2026</text>
+<circle cx="824" cy="314" r="12" fill="#1f1f1f"/>
+<text x="824" y="319" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+<text x="92" y="416" font-size="17" font-weight="bold" fill="#333333" text-anchor="start">Preparation notes</text>
+<circle cx="264" cy="410" r="12" fill="#1f1f1f"/>
+<text x="264" y="415" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="92" y="438" width="640" height="8" rx="4.0" fill="#d4d4d4"/>
+<rect x="92" y="458" width="600" height="8" rx="4.0" fill="#d4d4d4"/>
+<rect x="92" y="478" width="660" height="8" rx="4.0" fill="#d4d4d4"/>
+<rect x="92" y="498" width="380" height="8" rx="4.0" fill="#d4d4d4"/>
+<line x1="92" y1="542" x2="816" y2="542" stroke="#e2e2e2"/>
+<rect x="92" y="562" width="724" height="34" rx="4" fill="#f2f2f2" stroke="#9a9a9a" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="104" y="584" font-size="12" font-weight="normal" fill="#666" text-anchor="start">Only the author can change this question.</text>
+<rect x="92" y="610" width="130" height="36" rx="6" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="157.0" y="633.0" font-size="13" font-weight="bold" fill="#333333" text-anchor="middle">Edit question</text>
+<rect x="234" y="610" width="140" height="36" rx="6" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="304.0" y="633.0" font-size="13" font-weight="bold" fill="#333333" text-anchor="middle">Delete question</text>
+<circle cx="386" cy="616" r="12" fill="#1f1f1f"/>
+<text x="386" y="621" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">6</text>
+<text x="92" y="676" font-size="12" font-weight="normal" fill="#999" text-anchor="start">Logged in as the author (Arun). Other visitors see no Edit or Delete buttons.</text>
+<text x="910" y="84" font-size="15" font-weight="bold" fill="#1f1f1f">Annotations</text>
+<circle cx="922" cy="105" r="12" fill="#1f1f1f"/>
+<text x="922" y="110" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+<text x="944" y="110" font-size="14" font-weight="bold" fill="#1f1f1f">Back to results</text>
+<text x="944" y="130" font-size="12.5" fill="#444444">Returns to the question bank with the same</text>
+<text x="944" y="147" font-size="12.5" fill="#444444">search and filters the user had before.</text>
+<circle cx="922" cy="175" r="12" fill="#1f1f1f"/>
+<text x="922" y="180" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+<text x="944" y="180" font-size="14" font-weight="bold" fill="#1f1f1f">Topic and difficulty</text>
+<text x="944" y="200" font-size="12.5" fill="#444444">Shown as text labels at the top, so the user</text>
+<text x="944" y="217" font-size="12.5" fill="#444444">knows what kind of question it is at a</text>
+<text x="944" y="234" font-size="12.5" fill="#444444">glance.</text>
+<circle cx="922" cy="262" r="12" fill="#1f1f1f"/>
+<text x="922" y="267" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+<text x="944" y="267" font-size="14" font-weight="bold" fill="#1f1f1f">The question</text>
+<text x="944" y="287" font-size="12.5" fill="#444444">The page's main heading, because it is the</text>
+<text x="944" y="304" font-size="12.5" fill="#444444">most important content on the page.</text>
+<circle cx="922" cy="332" r="12" fill="#1f1f1f"/>
+<text x="922" y="337" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+<text x="944" y="337" font-size="14" font-weight="bold" fill="#1f1f1f">Interview details</text>
+<text x="944" y="357" font-size="12.5" fill="#444444">Company, role, round, and who shared it and</text>
+<text x="944" y="374" font-size="12.5" fill="#444444">when.</text>
+<circle cx="922" cy="402" r="12" fill="#1f1f1f"/>
+<text x="922" y="407" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+<text x="944" y="407" font-size="14" font-weight="bold" fill="#1f1f1f">Preparation notes</text>
+<text x="944" y="427" font-size="12.5" fill="#444444">Tips from the student who was asked the</text>
+<text x="944" y="444" font-size="12.5" fill="#444444">question. If there are none, the page says</text>
+<text x="944" y="461" font-size="12.5" fill="#444444">so.</text>
+<circle cx="922" cy="489" r="12" fill="#1f1f1f"/>
+<text x="922" y="494" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">6</text>
+<text x="944" y="494" font-size="14" font-weight="bold" fill="#1f1f1f">Author-only actions</text>
+<text x="944" y="514" font-size="12.5" fill="#444444">Edit and Delete appear only for the author.</text>
+<text x="944" y="531" font-size="12.5" fill="#444444">Delete asks for confirmation. The server</text>
+<text x="944" y="548" font-size="12.5" fill="#444444">also rejects changes from anyone else, and</text>
+<text x="944" y="565" font-size="12.5" fill="#444444">the error appears above the buttons.</text>
+</svg>

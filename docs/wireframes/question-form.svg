@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860" font-family="Helvetica, Arial, sans-serif">
+<rect width="1280" height="860" fill="#fafafa"/>
+<text x="24" y="38" font-size="22" font-weight="bold" fill="#1f1f1f">Share or edit a question</text>
+<text x="24" y="58" font-size="13" fill="#666666">Routes: /questions/new and /questions/:id/edit   |   Login required (story 7).</text>
+<rect x="24" y="70" width="860" height="766" fill="#ffffff" stroke="#6b6b6b" stroke-width="2"/>
+<rect x="24" y="70" width="860" height="52" rx="0" fill="#f2f2f2" stroke="#8a8a8a" stroke-width="1.5"/>
+<rect x="42" y="83" width="26" height="26" rx="6" fill="#bdbdbd" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="78" y="102" font-size="18" font-weight="bold" fill="#333333" text-anchor="start">Applied</text>
+<text x="259.0" y="101" font-size="13" font-weight="bold" fill="#666" text-anchor="middle">My Applications</text>
+<rect x="334" y="81" width="130" height="30" rx="6" fill="#dcdcdc" stroke="#dcdcdc" stroke-width="1.5"/>
+<text x="399.0" y="101" font-size="13" font-weight="bold" fill="#333" text-anchor="middle">Question Bank</text>
+<text x="754" y="101" font-size="13" font-weight="normal" fill="#666" text-anchor="end">Hi, Kavya</text>
+<rect x="772" y="80" width="94" height="32" rx="6" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="819.0" y="101.0" font-size="12" font-weight="bold" fill="#333333" text-anchor="middle">Log out</text>
+<rect x="114" y="154" width="680" height="620" rx="8" fill="#ffffff" stroke="#4a4a4a" stroke-width="2"/>
+<text x="142" y="198" font-size="22" font-weight="bold" fill="#333333" text-anchor="start">Share an interview question</text>
+<circle cx="454" cy="191" r="12" fill="#1f1f1f"/>
+<text x="454" y="196" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+<rect x="142" y="218" width="520" height="7" rx="3.5" fill="#d4d4d4"/>
+<rect x="142" y="232" width="360" height="7" rx="3.5" fill="#d4d4d4"/>
+<text x="142" y="272" font-size="12" font-weight="bold" fill="#333333" text-anchor="start">Question</text>
+<rect x="142" y="280" width="624" height="66" rx="4" fill="#ffffff" stroke="#8a8a8a" stroke-width="1.5"/>
+<circle cx="774" cy="266" r="12" fill="#1f1f1f"/>
+<text x="774" y="271" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+<text x="142" y="374" font-size="12" font-weight="bold" fill="#333333" text-anchor="start">Company</text>
+<rect x="142" y="382" width="302.0" height="34" rx="4" fill="#ffffff" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="152" y="404.0" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">Wayfair</text>
+<circle cx="434.0" cy="368" r="12" fill="#1f1f1f"/>
+<text x="434.0" y="373" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+<text x="464.0" y="374" font-size="12" font-weight="bold" fill="#333333" text-anchor="start">Role</text>
+<rect x="464.0" y="382" width="302.0" height="34" rx="4" fill="#ffffff" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="474.0" y="404.0" font-size="12" font-weight="normal" fill="#9a9a9a" text-anchor="start">e.g. Software Engineer Co-op</text>
+<text x="142" y="438" font-size="12" font-weight="bold" fill="#333333" text-anchor="start">Interview round</text>
+<rect x="142" y="446" width="302.0" height="34" rx="4" fill="#ffffff" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="152" y="468.0" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">Choose a round</text>
+<path d="M422.0 460.0 l6 6 l6 -6" fill="none" stroke="#555" stroke-width="1.5"/>
+<text x="464.0" y="438" font-size="12" font-weight="bold" fill="#333333" text-anchor="start">Topic</text>
+<rect x="464.0" y="446" width="302.0" height="34" rx="4" fill="#ffffff" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="474.0" y="468.0" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">Choose a topic</text>
+<path d="M744.0 460.0 l6 6 l6 -6" fill="none" stroke="#555" stroke-width="1.5"/>
+<text x="142" y="502" font-size="12" font-weight="bold" fill="#333333" text-anchor="start">Difficulty</text>
+<rect x="142" y="510" width="302.0" height="34" rx="4" fill="#ffffff" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="152" y="532.0" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">Choose a difficulty</text>
+<path d="M422.0 524.0 l6 6 l6 -6" fill="none" stroke="#555" stroke-width="1.5"/>
+<circle cx="756.0" cy="432" r="12" fill="#1f1f1f"/>
+<text x="756.0" y="437" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+<text x="142" y="568" font-size="12" font-weight="bold" fill="#333333" text-anchor="start">Preparation notes</text>
+<rect x="142" y="576" width="624" height="80" rx="4" fill="#ffffff" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="154" y="598" font-size="12" font-weight="normal" fill="#9a9a9a" text-anchor="start">How you approached it, follow-up questions, what the interviewer cared about…</text>
+<circle cx="774" cy="562" r="12" fill="#1f1f1f"/>
+<text x="774" y="567" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="142" y="668" width="624" height="34" rx="4" fill="#f2f2f2" stroke="#9a9a9a" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="154" y="690" font-size="12" font-weight="normal" fill="#666" text-anchor="start">Topic must be one of: Arrays &amp; Strings, Linked Lists, …</text>
+<circle cx="774" cy="672" r="12" fill="#1f1f1f"/>
+<text x="774" y="677" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">6</text>
+<rect x="142" y="718" width="150" height="36" rx="6" fill="#4a4a4a" stroke="#4a4a4a" stroke-width="1.5"/>
+<text x="217.0" y="741.0" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Share question</text>
+<rect x="304" y="718" width="90" height="36" rx="6" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="349.0" y="741.0" font-size="13" font-weight="bold" fill="#333333" text-anchor="middle">Cancel</text>
+<circle cx="406" cy="726" r="12" fill="#1f1f1f"/>
+<text x="406" y="731" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">7</text>
+<text x="910" y="84" font-size="15" font-weight="bold" fill="#1f1f1f">Annotations</text>
+<circle cx="922" cy="105" r="12" fill="#1f1f1f"/>
+<text x="922" y="110" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+<text x="944" y="110" font-size="14" font-weight="bold" fill="#1f1f1f">Same form for share and edit</text>
+<text x="944" y="130" font-size="12.5" fill="#444444">When editing, the title becomes Edit your</text>
+<text x="944" y="147" font-size="12.5" fill="#444444">question, the fields are filled in, and the</text>
+<text x="944" y="164" font-size="12.5" fill="#444444">button says Save changes. Only the author</text>
+<text x="944" y="181" font-size="12.5" fill="#444444">can open the edit form.</text>
+<circle cx="922" cy="209" r="12" fill="#1f1f1f"/>
+<text x="922" y="214" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+<text x="944" y="214" font-size="14" font-weight="bold" fill="#1f1f1f">Question</text>
+<text x="944" y="234" font-size="12.5" fill="#444444">Required. Written the way the interviewer</text>
+<text x="944" y="251" font-size="12.5" fill="#444444">asked it.</text>
+<circle cx="922" cy="279" r="12" fill="#1f1f1f"/>
+<text x="922" y="284" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+<text x="944" y="284" font-size="14" font-weight="bold" fill="#1f1f1f">Company suggestions</text>
+<text x="944" y="304" font-size="12.5" fill="#444444">Suggests companies already in the question</text>
+<text x="944" y="321" font-size="12.5" fill="#444444">bank as the user types, so names stay</text>
+<text x="944" y="338" font-size="12.5" fill="#444444">consistent. Any company can still be</text>
+<text x="944" y="355" font-size="12.5" fill="#444444">entered.</text>
+<circle cx="922" cy="383" r="12" fill="#1f1f1f"/>
+<text x="922" y="388" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+<text x="944" y="388" font-size="14" font-weight="bold" fill="#1f1f1f">Required dropdowns</text>
+<text x="944" y="408" font-size="12.5" fill="#444444">Round, topic and difficulty use fixed lists,</text>
+<text x="944" y="425" font-size="12.5" fill="#444444">so the filters on the search page always</text>
+<text x="944" y="442" font-size="12.5" fill="#444444">match.</text>
+<circle cx="922" cy="470" r="12" fill="#1f1f1f"/>
+<text x="922" y="475" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+<text x="944" y="475" font-size="14" font-weight="bold" fill="#1f1f1f">Preparation notes</text>
+<text x="944" y="495" font-size="12.5" fill="#444444">Optional tips for other students.</text>
+<circle cx="922" cy="523" r="12" fill="#1f1f1f"/>
+<text x="922" y="528" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">6</text>
+<text x="944" y="528" font-size="14" font-weight="bold" fill="#1f1f1f">Error message</text>
+<text x="944" y="548" font-size="12.5" fill="#444444">If the server rejects the data, the reason</text>
+<text x="944" y="565" font-size="12.5" fill="#444444">is shown here and nothing is lost.</text>
+<circle cx="922" cy="593" r="12" fill="#1f1f1f"/>
+<text x="922" y="598" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">7</text>
+<text x="944" y="598" font-size="14" font-weight="bold" fill="#1f1f1f">Cancel</text>
+<text x="944" y="618" font-size="12.5" fill="#444444">Goes back to the question, or to the</text>
+<text x="944" y="635" font-size="12.5" fill="#444444">question bank when sharing a new one.</text>
+</svg>
