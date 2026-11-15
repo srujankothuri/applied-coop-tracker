@@ -7,3 +7,12 @@ export const userShape = PropTypes.shape({
   username: PropTypes.string.isRequired,
   displayName: PropTypes.string.isRequired,
 });
+
+export const applicationShape = PropTypes.shape({
+  _id: PropTypes.string.isRequired,
+  company: PropTypes.string.isRequired,
+  role: PropTypes.string.isRequired,
+  dateApplied: PropTypes.string.isRequired,
+  status: PropTypes.string.isRequired,
+  notes: PropTypes.string,
+});

@@ -3,9 +3,11 @@ import session from "express-session";
 import { isProduction, SESSION_SECRET } from "./config/env.js";
 import { connectDB } from "./db/connection.js";
 import { ensureUserIndexes } from "./db/usersDB.js";
+import { ensureApplicationIndexes } from "./db/applicationsDB.js";
 import MongoSessionStore from "./db/sessionStore.js";
 import passport from "./auth/passport.js";
 import authRouter from "./routes/auth.js";
+import applicationsRouter from "./routes/applications.js";
 
 if (!SESSION_SECRET) {
   throw new Error(
@@ -27,7 +29,11 @@ function ensureReady() {
   if (!ready) {
     ready = (async () => {
       await connectDB();
-      await Promise.all([ensureUserIndexes(), sessionStore.ensureIndexes()]);
+      await Promise.all([
+        ensureUserIndexes(),
+        ensureApplicationIndexes(),
+        sessionStore.ensureIndexes(),
+      ]);
     })().catch((err) => {
       ready = null;
       throw err;
@@ -62,6 +68,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use("/api/auth", authRouter);
+app.use("/api/applications", applicationsRouter);
 app.use("/api", (req, res) => {
   res.status(404).json({ error: "API route not found." });
 });

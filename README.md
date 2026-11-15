@@ -39,14 +39,18 @@ No CORS middleware is needed. In development, Vite proxies `/api` to Express, so
 backend/
   app.js        Express app (exported for Vercel)
   server.js     starts the app locally
-  config/       environment loading
+  config/       environment loading and shared constants
   db/           MongoDB connection and one module per collection
   auth/         Passport strategy and session serialization
+  middleware/   requireAuth
   routes/       API routes
+  seed/         synthetic data generator (npm run seed)
+  utils/        validation helpers
 frontend/
   src/api/          fetch wrapper for the API
   src/components/   one folder per component: Component.jsx + Component.css
-  src/utils/        PropTypes shapes
+  src/hooks/        useDebouncedValue
+  src/utils/        PropTypes shapes and constants
   src/styles/       global design tokens
 docs/           design document and wireframes
 ```
@@ -68,9 +72,17 @@ Requirements: Node.js 20.12 or newer, and a MongoDB database (a free MongoDB Atl
    cp backend/.env.example backend/.env
    ```
 
-   Set `MONGODB_URI`, `DB_NAME`, and `SESSION_SECRET` (a long random string). `.env` is git-ignored and must never be committed.
+   Set `MONGODB_URI`, `DB_NAME`, `SESSION_SECRET` (a long random string), and `DEMO_PASSWORD`. `.env` is git-ignored and must never be committed.
 
-3. Start both servers in two terminals:
+3. Seed the database with synthetic data. This replaces any existing data in the configured database.
+
+   ```bash
+   cd backend && npm run seed
+   ```
+
+   The demo accounts `kavya`, `daniel`, and `arun` (and seven more) use the `DEMO_PASSWORD` you set.
+
+4. Start both servers in two terminals:
 
    ```bash
    cd backend && npm run dev

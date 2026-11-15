@@ -20,6 +20,17 @@ async function request(path, { method = "GET", body } = {}) {
   return data;
 }
 
+function toQuery(params) {
+  const search = new URLSearchParams();
+  Object.entries(params).forEach(([key, value]) => {
+    if (value !== undefined && value !== null && value !== "") {
+      search.set(key, value);
+    }
+  });
+  const text = search.toString();
+  return text ? `?${text}` : "";
+}
+
 export const authApi = {
   me: () => request("/auth/me"),
   login: (credentials) =>
@@ -27,4 +38,17 @@ export const authApi = {
   register: (details) =>
     request("/auth/register", { method: "POST", body: details }),
   logout: () => request("/auth/logout", { method: "POST" }),
+};
+
+export const applicationsApi = {
+  list: (filters) => request(`/applications${toQuery(filters)}`),
+  create: (data) => request("/applications", { method: "POST", body: data }),
+  update: (id, data) =>
+    request(`/applications/${id}`, { method: "PUT", body: data }),
+  setStatus: (id, status) =>
+    request(`/applications/${id}/status`, {
+      method: "PATCH",
+      body: { status },
+    }),
+  remove: (id) => request(`/applications/${id}`, { method: "DELETE" }),
 };

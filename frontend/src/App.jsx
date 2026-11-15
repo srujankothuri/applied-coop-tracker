@@ -4,6 +4,8 @@ import { authApi } from "./api/client.js";
 import NavBar from "./components/NavBar/NavBar.jsx";
 import HomePage from "./components/HomePage/HomePage.jsx";
 import LoginPage from "./components/LoginPage/LoginPage.jsx";
+import RequireAuth from "./components/RequireAuth/RequireAuth.jsx";
+import ApplicationsPage from "./components/ApplicationsPage/ApplicationsPage.jsx";
 import NotFound from "./components/NotFound/NotFound.jsx";
 
 export default function App() {
@@ -37,6 +39,14 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage user={user} />} />
           <Route path="/login" element={<LoginPage onLogin={setUser} />} />
+          <Route
+            path="/applications"
+            element={
+              <RequireAuth user={user}>
+                <ApplicationsPage />
+              </RequireAuth>
+            }
+          />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
