@@ -81,6 +81,18 @@ Greyscale wireframes of every screen. The numbered markers on each screen point 
 
 ![Application form wireframe](wireframes/application-form.svg)
 
+### Question bank search and filter (stories 5, 7)
+
+![Question bank wireframe](wireframes/question-bank.svg)
+
+### Question detail (stories 6, 7)
+
+![Question detail wireframe](wireframes/question-detail.svg)
+
+### Share or edit a question (story 7)
+
+![Question form wireframe](wireframes/question-form.svg)
+
 ## 5. Data model (MongoDB, native driver)
 
 **users**
