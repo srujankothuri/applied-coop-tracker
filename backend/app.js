@@ -1,3 +1,5 @@
+import fs from "node:fs";
+import path from "node:path";
 import express from "express";
 import session from "express-session";
 import { isProduction, SESSION_SECRET } from "./config/env.js";
@@ -75,6 +77,16 @@ app.use("/api/applications", applicationsRouter);
 app.use("/api/questions", questionsRouter);
 app.use("/api", (req, res) => {
   res.status(404).json({ error: "API route not found." });
+});
+
+// The React build lives in public/ (see frontend/vite.config.js). On
+// Vercel those files are served by its CDN; this fallback returns
+// index.html for app routes such as /applications, so refreshing a page
+// or opening a link to it still loads the React app.
+const indexHtml = path.join(process.cwd(), "public", "index.html");
+app.get("/{*splat}", (req, res, next) => {
+  if (!fs.existsSync(indexHtml)) return next();
+  return res.sendFile(indexHtml);
 });
 
 // Express 5 forwards errors from async handlers here.
