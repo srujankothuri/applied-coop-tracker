@@ -8,6 +8,3 @@ Thumbs.db
 *.log
 .claude/
 .vercel/
-
-# React build output (frontend builds into backend/public for Vercel)
-backend/public/
