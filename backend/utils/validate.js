@@ -1,4 +1,9 @@
-import { APPLICATION_STATUSES } from "../config/constants.js";
+import {
+  APPLICATION_STATUSES,
+  QUESTION_DIFFICULTIES,
+  QUESTION_ROUNDS,
+  QUESTION_TOPICS,
+} from "../config/constants.js";
 
 // Escapes user input before it is used inside a RegExp, so a search
 // for "C++" or "(" does not throw or match unintended text.
@@ -59,6 +64,40 @@ export function validateApplication(body = {}) {
   return { data, errors };
 }
 
+export function validateQuestion(body = {}) {
+  const errors = [];
+  const data = {
+    question: cleanText(
+      body.question,
+      "Question",
+      { required: true, max: 1000 },
+      errors,
+    ),
+    company: cleanText(
+      body.company,
+      "Company",
+      { required: true, max: 100 },
+      errors,
+    ),
+    role: cleanText(body.role, "Role", { required: true, max: 100 }, errors),
+    round: cleanChoice(body.round, "Round", QUESTION_ROUNDS, errors),
+    topic: cleanChoice(body.topic, "Topic", QUESTION_TOPICS, errors),
+    difficulty: cleanChoice(
+      body.difficulty,
+      "Difficulty",
+      QUESTION_DIFFICULTIES,
+      errors,
+    ),
+    prepNotes: cleanText(
+      body.prepNotes,
+      "Preparation notes",
+      { required: false, max: 3000 },
+      errors,
+    ),
+  };
+  return { data, errors };
+}
+
 // Reads a query-string value only if it is one of the allowed choices.
 export function pickChoice(value, choices) {
   return choices.includes(value) ? value : undefined;
@@ -68,4 +107,10 @@ export function pickText(value, max = 100) {
   return typeof value === "string" && value.trim()
     ? value.trim().slice(0, max)
     : undefined;
+}
+
+export function pickPositiveInt(value, fallback, max) {
+  const n = Number.parseInt(value, 10);
+  if (!Number.isFinite(n) || n < 1) return fallback;
+  return Math.min(n, max);
 }
