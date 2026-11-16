@@ -6,6 +6,9 @@ import HomePage from "./components/HomePage/HomePage.jsx";
 import LoginPage from "./components/LoginPage/LoginPage.jsx";
 import RequireAuth from "./components/RequireAuth/RequireAuth.jsx";
 import ApplicationsPage from "./components/ApplicationsPage/ApplicationsPage.jsx";
+import QuestionsPage from "./components/QuestionsPage/QuestionsPage.jsx";
+import QuestionDetail from "./components/QuestionDetail/QuestionDetail.jsx";
+import QuestionForm from "./components/QuestionForm/QuestionForm.jsx";
 import NotFound from "./components/NotFound/NotFound.jsx";
 
 export default function App() {
@@ -44,6 +47,27 @@ export default function App() {
             element={
               <RequireAuth user={user}>
                 <ApplicationsPage />
+              </RequireAuth>
+            }
+          />
+          <Route path="/questions" element={<QuestionsPage user={user} />} />
+          <Route
+            path="/questions/new"
+            element={
+              <RequireAuth user={user}>
+                <QuestionForm user={user} />
+              </RequireAuth>
+            }
+          />
+          <Route
+            path="/questions/:id"
+            element={<QuestionDetail user={user} />}
+          />
+          <Route
+            path="/questions/:id/edit"
+            element={
+              <RequireAuth user={user}>
+                <QuestionForm user={user} />
               </RequireAuth>
             }
           />

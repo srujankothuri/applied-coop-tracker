@@ -52,3 +52,13 @@ export const applicationsApi = {
     }),
   remove: (id) => request(`/applications/${id}`, { method: "DELETE" }),
 };
+
+export const questionsApi = {
+  list: (params) => request(`/questions${toQuery(params)}`),
+  options: () => request("/questions/options"),
+  get: (id) => request(`/questions/${id}`),
+  create: (data) => request("/questions", { method: "POST", body: data }),
+  update: (id, data) =>
+    request(`/questions/${id}`, { method: "PUT", body: data }),
+  remove: (id) => request(`/questions/${id}`, { method: "DELETE" }),
+};
