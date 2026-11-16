@@ -16,3 +16,24 @@ export const applicationShape = PropTypes.shape({
   status: PropTypes.string.isRequired,
   notes: PropTypes.string,
 });
+
+export const questionShape = PropTypes.shape({
+  _id: PropTypes.string.isRequired,
+  question: PropTypes.string.isRequired,
+  company: PropTypes.string.isRequired,
+  role: PropTypes.string.isRequired,
+  round: PropTypes.string.isRequired,
+  topic: PropTypes.string.isRequired,
+  difficulty: PropTypes.string.isRequired,
+  prepNotes: PropTypes.string,
+  authorId: PropTypes.string.isRequired,
+  authorName: PropTypes.string.isRequired,
+  createdAt: PropTypes.string.isRequired,
+});
+
+export const questionOptionsShape = PropTypes.shape({
+  companies: PropTypes.arrayOf(PropTypes.string).isRequired,
+  topics: PropTypes.arrayOf(PropTypes.string).isRequired,
+  difficulties: PropTypes.arrayOf(PropTypes.string).isRequired,
+  rounds: PropTypes.arrayOf(PropTypes.string).isRequired,
+});
