@@ -3,8 +3,8 @@
 **Track every co-op application and prepare with interview questions shared by students.**
 
 - **Live app**: https://applied-coop-tracker.vercel.app
-- **Demo video**: _link added after recording_
-- **Slides**: _link added after the presentation_
+- **Demo video**: https://www.youtube.com/watch?v=6uTBFgl46nI
+- **Slides**: https://docs.google.com/presentation/d/13ufjBw5ph3RnRZhfXCPjKZLmb631WQGIAWf5Za7HZmU/edit?usp=sharing
 
 ## Authors
 
@@ -26,6 +26,24 @@ Applied has two independent features:
 2. **Interview Question Bank** (public to browse; sharing, editing, and deleting require an account): search interview questions by keyword, company, topic, difficulty, and interview round. Open a question to read its preparation notes, and share, edit, or delete questions you were asked yourself.
 
 The full design document, with personas, user stories, and wireframes, is in [docs/DESIGN.md](docs/DESIGN.md).
+
+## Screenshots
+
+**Home page**: what Applied does, with step-by-step instructions for both features.
+
+![Applied home page](docs/screenshots/home.png)
+
+**Application Tracker**: applications grouped by status, with filters and one-click status changes.
+
+![My Applications status board](docs/screenshots/application-board.png)
+
+**Interview Question Bank**: search and filter 1,200 interview questions.
+
+![Interview Question Bank](docs/screenshots/question-bank.png)
+
+**Question detail**: interview details and preparation notes.
+
+![Question detail page](docs/screenshots/question-detail.png)
 
 ## Tech stack
 
